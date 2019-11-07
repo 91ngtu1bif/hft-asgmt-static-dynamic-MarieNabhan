@@ -15,7 +15,10 @@
       "^.+\\.js?$": "babel-jest"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/plugin-transform-regenerator": "^7.4.5",
